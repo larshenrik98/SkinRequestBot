@@ -1,0 +1,16 @@
+{
+  "_comment": "Merge these keys into oxide/config/SkinBox.json on your Rust server.",
+  "Command Options": {
+    "_comment": "Remove in-game skin request commands — players request via Discord only.",
+    "Commands to request a skin": []
+  },
+  "Skin Requests": {
+    "_comment": "Disable SkinBox Discord webhook (Discord bot handles requests instead).",
+    "Allow skin requests": false,
+    "Discord webhook for incoming skin requests": ""
+  },
+  "Skin Options": {
+    "_comment": "Required for workshop lookups if you add skins manually; keep your existing key.",
+    "Steam API key for workshop skins (https://steamcommunity.com/dev/apikey)": "YOUR_STEAM_API_KEY"
+  }
+}
